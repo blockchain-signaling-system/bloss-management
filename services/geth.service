@@ -1,0 +1,39 @@
+CTRL 400
+
+[Unit]
+Description=go-thereum client
+Requires=network.target
+[Service]
+Type=simple
+User=ethereum
+Restart=on-failure
+ExecStart=/usr/local/bin/geth --syncmode 'full' --rpc --rpcapi 'personal,db,eth,net,web3,txpool,miner' --rpcaddr 0.0.0.0 --bootnodes 'enode://102ed0ac7f14560dc39f05f06c85536daeffc5e31b005c7e9ebdba3fda40be17136dfe3d4c849245ea58766a526fa13b008de24cfe2f4090b1a60694adfcb3b6@[172.10.15.17]:30310' --networkid 21 --gasprice '1' --mine --targetgaslimit 4700000 --unlock '0x12f778112cde7812d2608ea99ac981e67ea598c8' --password /home/ethereum/wallet_passphrase >> /home/ethereum/console.log 2>&1 &
+[Install]
+WantedBy=default.target
+
+CTRL 500
+
+[Unit]
+Description=go-thereum client
+Requires=network.target
+[Service]
+Type=simple
+User=ethereum
+Restart=on-failure
+ExecStart=/usr/local/bin/geth --syncmode 'full' --rpc --rpcapi 'personal,db,eth,net,web3,txpool,miner' --rpcaddr 0.0.0.0 --bootnodes 'enode://102ed0ac7f14560dc39f05f06c85536daeffc5e31b005c7e9ebdba3fda40be17136dfe3d4c849245ea58766a526fa13b008de24cfe2f4090b1a60694adfcb3b6@[172.10.15.17]:30310' --networkid 21 --gasprice '1' --mine --targetgaslimit 4700000 --unlock '0x7461ff344056a74edf3b30cf1a2b25e1945bbdf2' --password /home/ethereum/wallet_passphrase >> /home/ethereum/console.log 2>&1 &
+[Install]
+WantedBy=default.target
+
+
+CTRL 600 
+
+[Unit]
+Description=go-thereum client
+Requires=network.target
+[Service]
+Type=simple
+User=ethereum
+Restart=on-failure
+ExecStart=/usr/local/bin/geth --syncmode 'full' --rpc --rpcapi 'personal,db,eth,net,web3,txpool,miner' --rpcaddr 0.0.0.0 --bootnodes 'enode://102ed0ac7f14560dc39f05f06c85536daeffc5e31b005c7e9ebdba3fda40be17136dfe3d4c849245ea58766a526fa13b008de24cfe2f4090b1a60694adfcb3b6@[172.10.15.17]:30310' --networkid 21 --gasprice '1' --mine --targetgaslimit 4700000 --unlock '0x2dffd383f326807eb822b5d0275873afc5c681c2' --password /home/ethereum/wallet_passphrase >> /home/ethereum/console.log 2>&1 &
+[Install]
+WantedBy=default.target

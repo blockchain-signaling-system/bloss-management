@@ -1,0 +1,10 @@
+[Unit]
+Description=bloss
+Requires=network.target
+[Service]
+Type=simple
+User=bloss
+Restart=on-failure
+ExecStart=/usr/bin/env PYTHONPATH=/opt/bloss /usr/bin/python /opt/bloss/runner.py --debug --controller /opt/bloss/stalk/controller.py --controller /opt/bloss/stalk/simple_router.py
+[Install]
+WantedBy=multi-user.target

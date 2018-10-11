@@ -1,0 +1,10 @@
+[Unit]
+Description=ethereum-bootnode
+Requires=network.target
+[Service]
+Type=simple
+User=ethereum
+Restart=on_failure
+ExecStart=/usr/local/bin/bootnode -nodekey /home/ethereum/boot.key -verbosity 9 -addr :30310 >> /home/ethereum/bootnode.log 2>&1 &
+[Install]
+WantedBy=multi-user.target

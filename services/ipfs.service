@@ -1,0 +1,14 @@
+[Unit]
+Description=ipfs daemon
+After=network.target
+[Service]
+LimitNOFILE=10000
+Environment="IPFS_FD_MAX=9192"
+Environment="IPFS_PATH=/opt/ipfs"
+Environment="LIBP2P_FORCE_PNET=1"
+Type=simple
+ExecStartPre=chdir /opt/ipfs
+ExecStart=/usr/local/bin/ipfs daemon
+User=ipfs-daemon
+[Install]
+WantedBy=multi-user.target
