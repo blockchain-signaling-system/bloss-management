@@ -1,0 +1,137 @@
+attacking victim node604
+[1] 20:46:09 [SUCCESS] savf@node401
+PING 192.168.60.5 (192.168.60.5) 56(84) bytes of data.
+64 bytes from 192.168.60.5: icmp_seq=1 ttl=63 time=189 ms
+From 192.168.40.1: icmp_seq=2 Redirect Host(New nexthop: 192.168.60.5)
+64 bytes from 192.168.60.5: icmp_seq=2 ttl=64 time=1.46 ms
+64 bytes from 192.168.60.5: icmp_seq=3 ttl=64 time=1.29 ms
+64 bytes from 192.168.60.5: icmp_seq=4 ttl=64 time=1.28 ms
+64 bytes from 192.168.60.5: icmp_seq=5 ttl=64 time=1.27 ms
+64 bytes from 192.168.60.5: icmp_seq=6 ttl=64 time=1.31 ms
+64 bytes from 192.168.60.5: icmp_seq=7 ttl=64 time=1.28 ms
+64 bytes from 192.168.60.5: icmp_seq=8 ttl=64 time=1.27 ms
+64 bytes from 192.168.60.5: icmp_seq=9 ttl=64 time=1.29 ms
+64 bytes from 192.168.60.5: icmp_seq=10 ttl=64 time=1.30 ms
+
+--- 192.168.60.5 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9012ms
+rtt min/avg/max/mdev = 1.274/20.169/189.897/56.576 ms
+[2] 20:46:09 [SUCCESS] savf@node403
+PING 192.168.60.5 (192.168.60.5) 56(84) bytes of data.
+64 bytes from 192.168.60.5: icmp_seq=1 ttl=63 time=180 ms
+64 bytes from 192.168.60.5: icmp_seq=2 ttl=64 time=1.37 ms
+From 192.168.40.1: icmp_seq=3 Redirect Host(New nexthop: 192.168.60.5)
+64 bytes from 192.168.60.5: icmp_seq=3 ttl=64 time=1.40 ms
+64 bytes from 192.168.60.5: icmp_seq=4 ttl=64 time=1.28 ms
+64 bytes from 192.168.60.5: icmp_seq=5 ttl=64 time=1.30 ms
+64 bytes from 192.168.60.5: icmp_seq=6 ttl=64 time=1.29 ms
+64 bytes from 192.168.60.5: icmp_seq=7 ttl=64 time=1.28 ms
+64 bytes from 192.168.60.5: icmp_seq=8 ttl=64 time=1.34 ms
+64 bytes from 192.168.60.5: icmp_seq=9 ttl=64 time=1.27 ms
+64 bytes from 192.168.60.5: icmp_seq=10 ttl=64 time=1.29 ms
+
+--- 192.168.60.5 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9013ms
+rtt min/avg/max/mdev = 1.279/19.235/180.486/53.750 ms
+[3] 20:46:09 [SUCCESS] savf@node503
+PING 192.168.60.5 (192.168.60.5) 56(84) bytes of data.
+64 bytes from 192.168.60.5: icmp_seq=1 ttl=63 time=144 ms
+From 192.168.50.1: icmp_seq=2 Redirect Host(New nexthop: 192.168.60.5)
+64 bytes from 192.168.60.5: icmp_seq=2 ttl=64 time=1.12 ms
+64 bytes from 192.168.60.5: icmp_seq=3 ttl=64 time=1.07 ms
+64 bytes from 192.168.60.5: icmp_seq=4 ttl=64 time=1.00 ms
+64 bytes from 192.168.60.5: icmp_seq=5 ttl=64 time=1.00 ms
+64 bytes from 192.168.60.5: icmp_seq=6 ttl=64 time=0.987 ms
+64 bytes from 192.168.60.5: icmp_seq=7 ttl=64 time=0.986 ms
+64 bytes from 192.168.60.5: icmp_seq=8 ttl=64 time=1.00 ms
+64 bytes from 192.168.60.5: icmp_seq=9 ttl=64 time=0.975 ms
+64 bytes from 192.168.60.5: icmp_seq=10 ttl=64 time=0.979 ms
+
+--- 192.168.60.5 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9010ms
+rtt min/avg/max/mdev = 0.975/15.351/144.380/43.009 ms
+[4] 20:46:09 [SUCCESS] savf@node502
+PING 192.168.60.5 (192.168.60.5) 56(84) bytes of data.
+64 bytes from 192.168.60.5: icmp_seq=1 ttl=63 time=123 ms
+64 bytes from 192.168.60.5: icmp_seq=2 ttl=64 time=1.00 ms
+From 192.168.50.1: icmp_seq=3 Redirect Host(New nexthop: 192.168.60.5)
+64 bytes from 192.168.60.5: icmp_seq=3 ttl=64 time=1.12 ms
+64 bytes from 192.168.60.5: icmp_seq=4 ttl=64 time=0.964 ms
+64 bytes from 192.168.60.5: icmp_seq=5 ttl=64 time=1.05 ms
+64 bytes from 192.168.60.5: icmp_seq=6 ttl=64 time=0.982 ms
+64 bytes from 192.168.60.5: icmp_seq=7 ttl=64 time=0.971 ms
+64 bytes from 192.168.60.5: icmp_seq=8 ttl=64 time=1.13 ms
+64 bytes from 192.168.60.5: icmp_seq=9 ttl=64 time=0.950 ms
+64 bytes from 192.168.60.5: icmp_seq=10 ttl=64 time=0.991 ms
+
+--- 192.168.60.5 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9010ms
+rtt min/avg/max/mdev = 0.950/13.228/123.116/36.629 ms
+[5] 20:46:09 [SUCCESS] savf@node402
+PING 192.168.60.5 (192.168.60.5) 56(84) bytes of data.
+64 bytes from 192.168.60.5: icmp_seq=1 ttl=63 time=173 ms
+64 bytes from 192.168.60.5: icmp_seq=2 ttl=64 time=1.25 ms
+64 bytes from 192.168.60.5: icmp_seq=3 ttl=64 time=1.23 ms
+From 192.168.40.1: icmp_seq=4 Redirect Host(New nexthop: 192.168.60.5)
+64 bytes from 192.168.60.5: icmp_seq=4 ttl=64 time=1.37 ms
+64 bytes from 192.168.60.5: icmp_seq=5 ttl=64 time=1.21 ms
+64 bytes from 192.168.60.5: icmp_seq=6 ttl=64 time=1.19 ms
+64 bytes from 192.168.60.5: icmp_seq=7 ttl=64 time=1.19 ms
+64 bytes from 192.168.60.5: icmp_seq=8 ttl=64 time=1.23 ms
+64 bytes from 192.168.60.5: icmp_seq=9 ttl=64 time=1.15 ms
+64 bytes from 192.168.60.5: icmp_seq=10 ttl=64 time=1.18 ms
+
+--- 192.168.60.5 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9012ms
+rtt min/avg/max/mdev = 1.151/18.427/173.238/51.603 ms
+[6] 20:46:09 [SUCCESS] savf@node504
+PING 192.168.60.5 (192.168.60.5) 56(84) bytes of data.
+64 bytes from 192.168.60.5: icmp_seq=1 ttl=63 time=118 ms
+64 bytes from 192.168.60.5: icmp_seq=2 ttl=64 time=1.10 ms
+64 bytes from 192.168.60.5: icmp_seq=3 ttl=64 time=1.06 ms
+From 192.168.50.1: icmp_seq=4 Redirect Host(New nexthop: 192.168.60.5)
+64 bytes from 192.168.60.5: icmp_seq=4 ttl=64 time=1.16 ms
+64 bytes from 192.168.60.5: icmp_seq=5 ttl=64 time=1.02 ms
+64 bytes from 192.168.60.5: icmp_seq=6 ttl=64 time=1.01 ms
+64 bytes from 192.168.60.5: icmp_seq=7 ttl=64 time=1.06 ms
+64 bytes from 192.168.60.5: icmp_seq=8 ttl=64 time=1.00 ms
+64 bytes from 192.168.60.5: icmp_seq=9 ttl=64 time=1.00 ms
+64 bytes from 192.168.60.5: icmp_seq=10 ttl=64 time=0.986 ms
+
+--- 192.168.60.5 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9011ms
+rtt min/avg/max/mdev = 0.986/12.820/118.786/35.322 ms
+[7] 20:46:09 [SUCCESS] savf@node501
+PING 192.168.60.5 (192.168.60.5) 56(84) bytes of data.
+64 bytes from 192.168.60.5: icmp_seq=1 ttl=63 time=92.9 ms
+64 bytes from 192.168.60.5: icmp_seq=2 ttl=64 time=1.05 ms
+64 bytes from 192.168.60.5: icmp_seq=3 ttl=64 time=1.02 ms
+64 bytes from 192.168.60.5: icmp_seq=4 ttl=64 time=1.02 ms
+From 192.168.50.1: icmp_seq=5 Redirect Host(New nexthop: 192.168.60.5)
+64 bytes from 192.168.60.5: icmp_seq=5 ttl=64 time=1.11 ms
+64 bytes from 192.168.60.5: icmp_seq=6 ttl=64 time=1.04 ms
+64 bytes from 192.168.60.5: icmp_seq=7 ttl=64 time=0.990 ms
+64 bytes from 192.168.60.5: icmp_seq=8 ttl=64 time=0.978 ms
+64 bytes from 192.168.60.5: icmp_seq=9 ttl=64 time=1.09 ms
+64 bytes from 192.168.60.5: icmp_seq=10 ttl=64 time=1.02 ms
+
+--- 192.168.60.5 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9010ms
+rtt min/avg/max/mdev = 0.978/10.225/92.907/27.560 ms
+[8] 20:46:09 [SUCCESS] savf@node404
+PING 192.168.60.5 (192.168.60.5) 56(84) bytes of data.
+64 bytes from 192.168.60.5: icmp_seq=1 ttl=63 time=112 ms
+64 bytes from 192.168.60.5: icmp_seq=2 ttl=64 time=1.30 ms
+64 bytes from 192.168.60.5: icmp_seq=3 ttl=64 time=1.27 ms
+64 bytes from 192.168.60.5: icmp_seq=4 ttl=64 time=1.31 ms
+From 192.168.40.1: icmp_seq=5 Redirect Host(New nexthop: 192.168.60.5)
+64 bytes from 192.168.60.5: icmp_seq=5 ttl=64 time=1.34 ms
+64 bytes from 192.168.60.5: icmp_seq=6 ttl=64 time=1.24 ms
+64 bytes from 192.168.60.5: icmp_seq=7 ttl=64 time=1.25 ms
+64 bytes from 192.168.60.5: icmp_seq=8 ttl=64 time=1.24 ms
+64 bytes from 192.168.60.5: icmp_seq=9 ttl=64 time=1.23 ms
+64 bytes from 192.168.60.5: icmp_seq=10 ttl=64 time=1.25 ms
+
+--- 192.168.60.5 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9012ms
+rtt min/avg/max/mdev = 1.238/12.370/112.214/33.281 ms

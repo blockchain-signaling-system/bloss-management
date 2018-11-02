@@ -1,0 +1,15 @@
+
+1. Create all deployment servers you would like to work with
+2. Engage Edit > Macros > Start Macro Recording
+3. Then select a folder in the project tree that you would like to upload and hit right click > Deployment > Upload to... (or Ctrl+Shift+Alt+X)
+4. When a list of servers will appear, do not click the server with mouse but press the number key instead
+5. Repeat "Upload to..." action with different numbers.
+6. When you will upload the folder to all the servers, stop the macro recording via Edit > Macros > Stop Macro Recording
+7. When asked, provide a name for a macro
+8. Check that macro consists of PublishGroup.UploadTo and Typing actions in Edit > Macros > Edit Macros
+9. Now you can assign the macro with a shortcut in File | Settings | Keymap > Macros
+
+Note that servers list in "Upload to..." is sorted alphabetically so you should remember about this when adding or removing the servers.
+
+
+https://youtrack.jetbrains.com/issue/WI-34218#comment=27-1775721

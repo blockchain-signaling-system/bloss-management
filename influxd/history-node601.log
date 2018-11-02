@@ -1,0 +1,293 @@
+    1  27.10.18 20:40:12 cd
+    2  27.10.18 20:40:12 ls
+    3  27.10.18 20:40:12 mkdir .ssh
+    4  27.10.18 20:40:12 cd .ssh
+    5  27.10.18 20:40:12 vim authorized_keys
+    6  27.10.18 20:40:12 vi authorized_keys
+    7  27.10.18 20:40:12 exit
+    8  27.10.18 20:40:12 ls
+    9  27.10.18 20:40:12 ll
+   10  27.10.18 20:40:12 ls -alht
+   11  27.10.18 20:40:12 cd .ssh
+   12  27.10.18 20:40:12 ll
+   13  27.10.18 20:40:12 ls -alht
+   14  27.10.18 20:40:12 cat authorized_keys
+   15  27.10.18 20:40:12 sudo apt-get install vim
+   16  27.10.18 20:40:12 vim authorized_keys
+   17  27.10.18 20:40:12 exit
+   18  27.10.18 20:40:12 sudo vim /etc/ssh/sshd_config
+   19  27.10.18 20:40:12 sudo service sshd restart
+   20  27.10.18 20:40:12 sudo service ssh restart
+   21  27.10.18 20:40:12 sudo visudo
+   22  27.10.18 20:40:12 exit
+   23  27.10.18 20:40:12 sodu su
+   24  27.10.18 20:40:12 sudo su
+   25  27.10.18 20:40:12 ll
+   26  27.10.18 20:40:12 ls -alht
+   27  27.10.18 20:40:12 cd .ssh
+   28  27.10.18 20:40:12 ls
+   29  27.10.18 20:40:12 rm authorized_keys
+   30  27.10.18 20:40:12 vim authorized_keys
+   31  27.10.18 20:40:12 exit
+   32  27.10.18 20:40:12 sudo ifconfig
+   33  27.10.18 20:40:12 sudo adduser eth-netstats
+   34  27.10.18 20:40:12 sudo usermod -aG sudo eth-netstats
+   35  27.10.18 20:40:12 sudo su eth-netstats
+   36  27.10.18 20:40:12 cd
+   37  27.10.18 20:40:12 cp setup.sh /home/eth-netstats/
+   38  27.10.18 20:40:12 sudo cp setup.sh /home/eth-netstats/
+   39  27.10.18 20:40:12 sudo cp processes.json /home/eth-netstats/
+   40  27.10.18 20:40:12 sudo cp ws_secret.json /home/eth-netstats/
+   41  27.10.18 20:40:12 cd /home/eth-netstats/
+   42  27.10.18 20:40:12 ls
+   43  27.10.18 20:40:12 ll
+   44  27.10.18 20:40:12 ls -alht
+   45  27.10.18 20:40:12 sudo chown eth-netstats:eth-netstats ws_secret.json
+   46  27.10.18 20:40:12 sudo chown eth-netstats:eth-netstats processes.json
+   47  27.10.18 20:40:12 sudo chown eth-netstats:eth-netstats setup.sh
+   48  27.10.18 20:40:12 ls -alht
+   49  27.10.18 20:40:12 cd
+   50  27.10.18 20:40:12 git clone https://github.com/savf/dotfiles.git
+   51  27.10.18 20:40:12 cd dotfiles/
+   52  27.10.18 20:40:12 ./symlink.sh
+   53  27.10.18 20:40:12 exit
+   54  03.08.18 12:25:17 sudo vi /etc/hostname
+   55  03.08.18 12:25:32 exit
+   56  03.08.18 12:25:38 sudo reboot
+   57  03.08.18 12:26:07 exit
+   58  03.08.18 13:05:31 sudo vi /etc/hosts
+   59  03.08.18 13:05:39 exit
+   60  03.08.18 14:04:41 sudo pip install netifaces
+   61  03.08.18 14:05:20 cd /opt
+   62  03.08.18 14:05:23 sudo mkdir blinkt
+   63  03.08.18 14:05:33 sudo cp /home/savf/traffic_monitor.py blinkt/
+   64  03.08.18 14:05:35 sudo crontab -e
+   65  03.08.18 14:05:55 cd blinkt
+   66  03.08.18 14:06:00 sudo vim traffic_monitor.py
+   67  03.08.18 14:06:10 sudo reboot
+   68  04.08.18 09:58:31 ll
+   69  04.08.18 09:58:38 ps -aux | grep python
+   70  04.08.18 11:16:54 exit
+   71  04.08.18 13:38:10 curl -sL https://repos.influxdata.com/influxdb.key | sudo apt-key add -
+   72  04.08.18 13:38:21 source /etc/lsb-release
+   73  04.08.18 13:39:11 lsb_release -a
+   74  04.08.18 13:39:58 echo "deb https://repos.influxdata.com/debian stretch stable" | sudo tee /etc/apt/sources.list.d/influxdb.list
+   75  04.08.18 13:40:14 sudo apt-get update && sudo apt-get install influxdb
+   76  04.08.18 13:41:29 sudo service influxdb start
+   77  04.08.18 13:43:11 wget https://github.com/fg2it/grafana-on-raspberry/releases/download/v5.1.4/grafana_5.1.4_armhf.deb
+   78  04.08.18 13:43:44 sudo apt-get install -y adduser libfontconfig
+   79  04.08.18 13:44:10 sudo dpkg -i grafana_5.1.4_armhf.deb
+   80  04.08.18 13:44:56 sudo vim /etc/grafana/grafana.ini
+   81  04.08.18 13:46:14 sudo service grafana-server start
+   82  04.08.18 13:47:09 sudo service grafana-server status
+   83  04.08.18 13:47:30 ps -aux | grep node
+   84  04.08.18 13:47:34 ps -aux | grep npm
+   85  04.08.18 13:51:36 influx
+   86  04.08.18 13:53:34 grafana-cli plugins install jdbranham-diagram-panel
+   87  04.08.18 13:53:46 sudo grafana-cli plugins install jdbranham-diagram-panel
+   88  04.08.18 13:54:39 sudo service grafana-server restart
+   89  04.08.18 14:23:07 sudo update-rc.d grafana-server defaults
+   90  04.08.18 14:24:42 exit
+   91  04.08.18 12:57:03 sudo su eth-netstats
+   92  04.08.18 13:15:23 groups eth-netstats
+   93  04.08.18 13:15:30 sudo su eth-netstats
+   94  04.08.18 13:37:44 clear
+   95  04.08.18 13:38:01 bash
+   96  04.08.18 14:24:44 exit
+   97  04.08.18 14:59:22 cd /etc/init.d
+   98  04.08.18 14:59:22 ls
+   99  04.08.18 14:59:30 less grafana-server
+  100  04.08.18 15:10:33 sudo service grafana-server status
+  101  04.08.18 15:10:40 sudo service influxdb status
+  102  05.08.18 12:35:13 ls
+  103  05.08.18 12:35:18 sudo service influxdb status
+  104  05.08.18 12:35:33 influx
+  105  05.08.18 12:46:12 exit
+  106  05.08.18 12:49:00 ps -aux | grep iperf
+  107  05.08.18 12:50:17 history
+  108  05.08.18 12:50:23 history | grep iperf
+  109  05.08.18 12:50:40 exit
+  110  05.08.18 12:52:36 sudo crontab -e
+  111  05.08.18 12:54:18 sudo reboot
+  112  05.08.18 12:54:45 ps -aux | grep iperf
+  113  05.08.18 12:54:52 sudo ps -aux | grep iperf
+  114  05.08.18 12:54:56 sudo su
+  115  05.08.18 12:55:09 sudo crontab-e
+  116  05.08.18 12:55:13 sudo crontab -e
+  117  05.08.18 12:55:37 ps -aux | grep traffic_monitor
+  118  05.08.18 12:55:43 iperf
+  119  05.08.18 12:55:55 sudo apt-get install iperf
+  120  05.08.18 12:57:55 sudo apt-get update
+  121  05.08.18 12:58:45 ping www.google.ch
+  122  05.08.18 12:59:19 ifconfig
+  123  05.08.18 12:59:36 traceroute google.com
+  124  05.08.18 13:00:18 ping www.google.ch
+  125  05.08.18 13:01:16 sudo apt-get install iperf
+  126  05.08.18 13:02:10 exit
+  127  05.08.18 13:03:15 sudo service influxdb status
+  128  05.08.18 13:03:23 sudo service grafana-server status
+  129  05.08.18 13:04:46 sudo update-rc.d grafana-server enable
+  130  05.08.18 13:05:01 sudo service grafana-server stop
+  131  05.08.18 13:05:06 sudo service grafana-server start
+  132  05.08.18 13:05:59 sudo service grafana-server status
+  133  05.08.18 13:06:06 sudo crontab -e
+  134  05.08.18 13:06:12 sudo reboot
+  135  05.08.18 13:07:00 sudo service grafana-server status
+  136  05.08.18 13:07:11 sudo service grafana-server start
+  137  05.08.18 13:07:47 exit
+  138  06.08.18 06:32:34 sudo service grafana-server status
+  139  06.08.18 06:32:38 sudo service grafana-server start
+  140  06.08.18 06:32:46 sudo service influxdb status
+  141  06.08.18 06:40:33 exit
+  142  06.08.18 10:22:11 ls
+  143  06.08.18 10:22:17 sudo service influxdb status
+  144  06.08.18 10:22:29 sudo service grafana-server status
+  145  06.08.18 10:22:45 sudo service grafana-server start
+  146  06.08.18 10:25:48 exit
+  147  27.09.18 08:30:03 ifconfig
+  148  27.09.18 08:30:11 exit
+  149  27.09.18 08:33:18 sudo service influxdb status
+  150  27.09.18 08:33:31 sudo service grafana-server status
+  151  27.09.18 08:34:19 clear
+  152  27.09.18 08:35:11 exit
+  153  27.09.18 08:34:40 sudo service grafana-server status
+  154  27.09.18 08:34:48 sudo service influxdb start
+  155  27.09.18 08:34:52 sudo service grafana-server start
+  156  27.09.18 09:54:48 pgrep bootnote
+  157  27.09.18 09:54:50 pgrep bootnode
+  158  27.09.18 09:54:55 pgrep start-bootnode
+  159  27.09.18 09:54:59 exit
+  160  30.09.18 18:53:58 ipconfig
+  161  30.09.18 18:53:59 ifconfig
+  162  30.09.18 19:00:18 ls
+  163  30.09.18 19:00:20 la
+  164  30.09.18 19:00:22 ll
+  165  30.09.18 19:00:26 cat setup.sh
+  166  30.09.18 19:00:35 clear
+  167  30.09.18 19:00:37 exit
+  168  01.10.18 08:51:12 ls
+  169  01.10.18 08:51:19 exit
+  170  01.10.18 08:51:53 ifconfig
+  171  01.10.18 08:52:04 exit
+  172  01.10.18 12:07:54 sudo systemctl grafana-server start
+  173  01.10.18 12:07:59 sudo systemctl grafana-server
+  174  01.10.18 12:08:02 sudo systemctl status grafana-server
+  175  01.10.18 12:08:06 sudo systemctl start grafana-server
+  176  01.10.18 12:11:04 exit
+  177  01.10.18 11:27:57 ls
+  178  01.10.18 11:27:58 history
+  179  01.10.18 19:53:44 sudo systemctl start grafana-server
+  180  01.10.18 19:53:48 sudo systemctl status grafana-server
+  181  01.10.18 20:03:35 sudo systemctl start grafana-server
+  182  01.10.18 20:03:38 sudo systemctl status grafana-server
+  183  02.10.18 07:55:22 ls /etc/systemd/system
+  184  02.10.18 07:55:33 ls /etc/systemd/
+  185  02.10.18 07:55:58 systemctl status grafana-server
+  186  02.10.18 07:56:26 nano /usr/lib/systemd/system/grafana-server.service
+  187  02.10.18 08:00:22 exit
+  188  02.10.18 08:06:53 history
+  189  02.10.18 08:06:58 exit
+  190  02.10.18 08:07:57 curl http://localhost:8086/debug/pprof/
+  191  02.10.18 08:11:16 htop
+  192  02.10.18 09:20:30 sudo systemctl status grafana-server
+  193  02.10.18 09:20:37 sudo systemctl start grafana-server
+  194  02.10.18 09:21:09 exit
+  195  15.10.18 13:07:43 sudo systemctl status grafana-server
+  196  15.10.18 13:08:13 sudo journalctl -u influxdb.service
+  197  15.10.18 13:08:26 sudo journalctl -u influxdb.service -f
+  198  15.10.18 13:08:35 sudo journalctl -u grafana-server
+  199  15.10.18 13:08:44 sudo systemctl start grafana-server
+  200  15.10.18 13:08:48 sudo systemctl status grafana-server
+  201  15.10.18 13:21:03 clear
+  202  15.10.18 13:21:11 sudo systemctl status grafana-server
+  203  15.10.18 13:21:26 ls /home/
+  204  15.10.18 13:21:42 cat /etc/systemd/system/influxd.service
+  205  15.10.18 13:21:52 cat /etc/influxdb/influxdb.conf
+  206  15.10.18 13:22:36 cat /etc/systemd/system/influxd.service
+  207  15.10.18 13:23:17 pgrep influxdb
+  208  15.10.18 13:23:20 pgrep influx
+  209  15.10.18 13:23:39 cd /var/log/
+  210  15.10.18 13:23:39 ll
+  211  15.10.18 13:23:43 cd influxdb/
+  212  15.10.18 13:23:44 ll
+  213  15.10.18 13:23:49 ls -a
+  214  15.10.18 13:23:51 cd ..
+  215  15.10.18 13:24:07 sudo journalctl -u influxd
+  216  15.10.18 13:24:09 sudo journalctl -u influxdb
+  217  15.10.18 13:24:18 sudo journalctl -u influxdb -f
+  218  15.10.18 13:35:30 ifconfig
+  219  15.10.18 13:38:54 reboot
+  220  15.10.18 13:38:58 sudo reboot
+  221  15.10.18 13:39:34 sudo journalctl -u influxd.service
+  222  15.10.18 13:39:45 cat /etc/systemd/system/influxd.service
+  223  15.10.18 13:40:00 sudo systemctl status influxd
+  224  15.10.18 13:40:20 df -h
+  225  15.10.18 13:40:40 ls /var/lib/influxdb/
+  226  15.10.18 13:40:44 ls /var/lib/influxdb/data/
+  227  15.10.18 13:40:47 ls /var/lib/influxdb/data/mydb/
+  228  15.10.18 13:40:53 sudo ls /var/lib/influxdb/data/mydb/
+  229  15.10.18 13:40:58 clear
+  230  15.10.18 13:43:44 ifconfig
+  231  15.10.18 13:45:33 ping 172.10.15.20
+  232  15.10.18 13:45:54 sudo systemctl start grafana-server.service
+  233  16.10.18 20:49:52 ip route
+  234  16.10.18 20:50:27 df -h
+  235  16.10.18 20:50:42 history
+  236  16.10.18 20:55:14 ip route
+  237  16.10.18 20:56:57 sudo systemctl start grafana-server.service
+  238  16.10.18 21:04:56 sudo systemctl status grafana-server.service
+  239  16.10.18 21:05:48 history
+  240  16.10.18 21:06:20 sudo journalctl -u influxd -f
+  241  16.10.18 21:06:24 sudo journalctl -u influxd
+  242  16.10.18 21:06:37 sudo journalctl -u influxdb
+  243  16.10.18 21:07:34 ls /etc/systemd/system/
+  244  16.10.18 21:07:45 cat /etc/systemd/influxd.service
+  245  16.10.18 21:07:59 cat /etc/system/systemd/influxd.service
+  246  16.10.18 21:08:16 cat /etc/systemd/system/influxd.service
+  247  16.10.18 21:08:32 cat /etc/influxdb/influxdb.conf
+  248  16.10.18 21:10:44 history
+  249  16.10.18 21:13:01 sudo service grafana-server status
+  250  16.10.18 21:16:29 ping 192.168.50.2
+  251  16.10.18 21:26:02 netstat -lptn
+  252  16.10.18 21:28:40 netstat --tcp --listening --programs --numeric
+  253  16.10.18 21:29:01 sudo service restart influxd
+  254  16.10.18 21:29:09 sudo service influxd restart
+  255  16.10.18 21:29:13 sudo service influxd status
+  256  16.10.18 21:29:20 netstat -lptn
+  257  16.10.18 21:29:30 ip route
+  258  16.10.18 21:32:07 cat /etc/systemd/system/influxd.service
+  259  16.10.18 21:33:42 history
+  260  16.10.18 21:34:19 ls /etc/init.d
+  261  16.10.18 21:34:40 cat /etc/init.d/grafana-server
+  262  16.10.18 21:37:13 netstat -lptn
+  263  16.10.18 21:37:49 cat /etc/systemd/system/influxd.service
+  264  16.10.18 21:37:59 cat /etc/influxdb/influxdb.conf
+  265  16.10.18 21:38:34 sudo apt-get update && sudo apt-get install influxdb
+  266  27.10.18 20:40:12 ll
+  267  27.10.18 20:19:56 history
+  268  27.10.18 20:20:12 263
+  269  27.10.18 20:20:14 $263
+  270  27.10.18 20:20:23 cat /etc/systemd/system/influxd.service
+  271  27.10.18 20:21:02 cat /etc/influxdb/influxdb.conf
+  272  27.10.18 20:22:45 history
+  273  27.10.18 20:24:04 ifconfig
+  274  27.10.18 20:26:49 nano /etc/influxdb/influxdb.conf
+  275  27.10.18 20:28:05 cp /etc/influxdb/influxdb.conf /etc/influxdb/influxdb.conf.backup
+  276  27.10.18 20:28:10 sudo cp /etc/influxdb/influxdb.conf /etc/influxdb/influxdb.conf.backup
+  277  27.10.18 20:28:22 echo " " > /etc/influxdb/influxdb.conf
+  278  27.10.18 20:28:25 sudo echo " " > /etc/influxdb/influxdb.conf
+  279  27.10.18 20:28:40 sudo nano /etc/influxdb/influxdb.conf
+  280  27.10.18 20:30:15 cat /etc/influxdb/influxdb.conf
+  281  27.10.18 20:30:30 ifocnfig
+  282  27.10.18 20:30:33 ipconfig
+  283  27.10.18 20:30:39 exit
+  284  27.10.18 20:40:13 history
+  285  27.10.18 20:40:25 history | grep curl
+  286  27.10.18 20:40:31 curl http://localhost:8086/debug/pprof/
+  287  27.10.18 20:40:52 hisotry
+  288  27.10.18 20:40:59 systemctl status influxd
+  289  27.10.18 20:41:11 cat /etc/influxdb/influxdb.conf
+  290  27.10.18 20:41:27 history | grep netstat
+  291  27.10.18 20:41:31 netstat -lptn
+  292  27.10.18 20:41:43 curl http://localhost:8088/debug/pprof/
+  293  27.10.18 20:41:52 history
