@@ -1,0 +1,49 @@
+attacking victim node604
+[1] 21:42:59 [SUCCESS] savf@node501
+PING 192.168.60.5 (192.168.60.5) 56(84) bytes of data.
+64 bytes from 192.168.60.5: icmp_seq=5 ttl=64 time=1.06 ms
+64 bytes from 192.168.60.5: icmp_seq=6 ttl=64 time=0.935 ms
+64 bytes from 192.168.60.5: icmp_seq=7 ttl=64 time=1.03 ms
+64 bytes from 192.168.60.5: icmp_seq=8 ttl=64 time=0.933 ms
+64 bytes from 192.168.60.5: icmp_seq=9 ttl=64 time=1.04 ms
+64 bytes from 192.168.60.5: icmp_seq=10 ttl=64 time=0.954 ms
+
+--- 192.168.60.5 ping statistics ---
+10 packets transmitted, 6 received, 40% packet loss, time 9144ms
+rtt min/avg/max/mdev = 0.933/0.992/1.062/0.067 ms
+[2] 21:42:59 [SUCCESS] savf@node504
+PING 192.168.60.5 (192.168.60.5) 56(84) bytes of data.
+64 bytes from 192.168.60.5: icmp_seq=5 ttl=64 time=0.959 ms
+64 bytes from 192.168.60.5: icmp_seq=6 ttl=64 time=0.970 ms
+64 bytes from 192.168.60.5: icmp_seq=7 ttl=64 time=0.948 ms
+64 bytes from 192.168.60.5: icmp_seq=8 ttl=64 time=0.968 ms
+64 bytes from 192.168.60.5: icmp_seq=9 ttl=64 time=0.939 ms
+64 bytes from 192.168.60.5: icmp_seq=10 ttl=64 time=0.977 ms
+
+--- 192.168.60.5 ping statistics ---
+10 packets transmitted, 6 received, 40% packet loss, time 9190ms
+rtt min/avg/max/mdev = 0.939/0.960/0.977/0.022 ms
+[3] 21:42:59 [SUCCESS] savf@node503
+PING 192.168.60.5 (192.168.60.5) 56(84) bytes of data.
+64 bytes from 192.168.60.5: icmp_seq=5 ttl=64 time=0.916 ms
+64 bytes from 192.168.60.5: icmp_seq=6 ttl=64 time=0.919 ms
+64 bytes from 192.168.60.5: icmp_seq=7 ttl=64 time=0.944 ms
+64 bytes from 192.168.60.5: icmp_seq=8 ttl=64 time=0.945 ms
+64 bytes from 192.168.60.5: icmp_seq=9 ttl=64 time=0.924 ms
+64 bytes from 192.168.60.5: icmp_seq=10 ttl=64 time=0.938 ms
+
+--- 192.168.60.5 ping statistics ---
+10 packets transmitted, 6 received, 40% packet loss, time 9181ms
+rtt min/avg/max/mdev = 0.916/0.931/0.945/0.011 ms
+[4] 21:42:59 [SUCCESS] savf@node502
+PING 192.168.60.5 (192.168.60.5) 56(84) bytes of data.
+64 bytes from 192.168.60.5: icmp_seq=5 ttl=64 time=0.936 ms
+64 bytes from 192.168.60.5: icmp_seq=6 ttl=64 time=0.917 ms
+64 bytes from 192.168.60.5: icmp_seq=7 ttl=64 time=0.945 ms
+64 bytes from 192.168.60.5: icmp_seq=8 ttl=64 time=0.948 ms
+64 bytes from 192.168.60.5: icmp_seq=9 ttl=64 time=0.927 ms
+64 bytes from 192.168.60.5: icmp_seq=10 ttl=64 time=0.952 ms
+
+--- 192.168.60.5 ping statistics ---
+10 packets transmitted, 6 received, 40% packet loss, time 9194ms
+rtt min/avg/max/mdev = 0.917/0.937/0.952/0.033 ms

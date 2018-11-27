@@ -1,0 +1,48 @@
+10306 txs=0 uncles=0 elapsed=1.618ms
+Nov 27 10:19:47 controller400 geth[10415]: INFO [11-27|10:19:47] Signed recently, must wait for others
+Nov 27 10:19:52 controller400 geth[10415]: INFO [11-27|10:19:52] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=956.078µs mgasps=0.000  number=10306 hash=6be2df…13ab67 cache=22.21kB
+Nov 27 10:19:52 controller400 geth[10415]: INFO [11-27|10:19:52] Commit new mining work                   number=10307 txs=0 uncles=0 elapsed=495.831µs
+Nov 27 10:19:54 controller400 geth[10415]: INFO [11-27|10:19:54] Submitted contract creation              fullhash=0x1ef3915d5c1be5251420cc6d0307e9fe3da6b051f441856e4a72aa803173e892 contract=0x4D6Ae380C038A366C63E90F96173ffbDD9386F3f
+Nov 27 10:19:57 controller400 geth[10415]: INFO [11-27|10:19:57] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.196ms   mgasps=0.000  number=10307 hash=c92596…2d7ff4 cache=22.21kB
+Nov 27 10:19:57 controller400 geth[10415]: INFO [11-27|10:19:57] Commit new mining work                   number=10308 txs=1 uncles=0 elapsed=4.740ms
+Nov 27 10:19:57 controller400 geth[10415]: INFO [11-27|10:19:57] 🔗 block reached canonical chain          number=10302 hash=6d38df…3f3860
+Nov 27 10:20:02 controller400 geth[10415]: INFO [11-27|10:20:02] Successfully sealed new block            number=10308 hash=351d26…d6e739
+Nov 27 10:20:02 controller400 geth[10415]: INFO [11-27|10:20:02] 🔨 mined potential block                  number=10308 hash=351d26…d6e739
+Nov 27 10:20:02 controller400 geth[10415]: INFO [11-27|10:20:02] Commit new mining work                   number=10309 txs=1 uncles=0 elapsed=10.505ms
+Nov 27 10:20:02 controller400 geth[10415]: INFO [11-27|10:20:02] Signed recently, must wait for others
+Nov 27 10:20:02 controller400 geth[10415]: INFO [11-27|10:20:02] Submitted transaction                    fullhash=0xefd084b85853b2f8875806e736a1d00016f989ae77b5d35395782b5449e57bf4 recipient=0x32a9B560f1f9c1A86B2820542eAC7D2B5FFDCc76
+Nov 27 10:20:02 controller400 geth[10415]: INFO [11-27|10:20:02] Submitted transaction                    fullhash=0xf9ea3e440f3be117214743818cd7255007ebb32544f62928d335cede610e8904 recipient=0x4D6Ae380C038A366C63E90F96173ffbDD9386F3f
+^C
+
+
+
+Nov 27 10:19:55 controller500 geth[10926]: INFO [11-27|10:19:55] Submitted contract creation              fullhash=0x5aa3e6bb1d6af293dd382999db2eb7e7afd7f3fb82bb5646641e6df4e4079a8c contract=0xbeb130524310EC0e5050765527B4054c1901072E
+Nov 27 10:19:57 controller500 geth[10926]: INFO [11-27|10:19:57] Successfully sealed new block            number=10307 hash=c92596…2d7ff4
+Nov 27 10:19:57 controller500 geth[10926]: INFO [11-27|10:19:57] 🔨 mined potential block                  number=10307 hash=c92596…2d7ff4
+Nov 27 10:19:57 controller500 geth[10926]: INFO [11-27|10:19:57] Commit new mining work                   number=10308 txs=1 uncles=0 elapsed=8.499ms
+Nov 27 10:19:57 controller500 geth[10926]: INFO [11-27|10:19:57] Signed recently, must wait for others
+Nov 27 10:20:02 controller500 geth[10926]: INFO [11-27|10:20:02] Imported new chain segment               blocks=1 txs=1 mgas=0.647 elapsed=11.152ms  mgasps=58.010 number=10308 hash=351d26…d6e739 cache=26.84kB
+Nov 27 10:20:02 controller500 geth[10926]: INFO [11-27|10:20:02] Commit new mining work                   number=10309 txs=1 uncles=0 elapsed=4.125ms
+Nov 27 10:20:07 controller500 geth[10926]: INFO [11-27|10:20:07] Imported new chain segment               blocks=1 txs=1 mgas=0.647 elapsed=5.048ms   mgasps=128.150 number=10309 hash=593811…96983f cache=29.45kB
+Nov 27 10:20:07 controller500 geth[10926]: INFO [11-27|10:20:07] Commit new mining work                   number=10310 txs=1 uncles=0 elapsed=2.260ms
+Nov 27 10:20:07 controller500 geth[10926]: INFO [11-27|10:20:07] 🔗 block reached canonical chain          number=10304 hash=070b24…77f0b0
+Nov 27 10:20:08 controller500 geth[10926]: INFO [11-27|10:20:08] Submitted transaction                    fullhash=0x1d1f2e561108a8ad9349cc2ed2091f0b74214a68a0abb65fa7d4bc3259ef67cd recipient=0x32a9B560f1f9c1A86B2820542eAC7D2B5FFDCc76
+Nov 27 10:20:08 controller500 geth[10926]: INFO [11-27|10:20:08] Submitted transaction                    fullhash=0x6d2c7fee72b00262605bf0eeb760aaacf916aa88f4aabd985e4e18099b2bd9b0 recipient=0xbeb130524310EC0e5050765527B4054c1901072E
+
+
+apsed=2.289ms
+Nov 27 10:19:59 controller600 geth[11053]: INFO [11-27|10:19:59] Submitted contract creation              fullhash=0x7402d953672db8fcae94ef1603c7ef47562f4b1d10b53660c56f7873270a2754 contract=0x005D4140CE962f37468b400F2d0b1128833B71ae
+Nov 27 10:20:02 controller600 geth[11053]: INFO [11-27|10:20:02] Imported new chain segment               blocks=1 txs=1 mgas=0.647 elapsed=11.197ms  mgasps=57.779 number=10308 hash=351d26…d6e739 cache=26.84kB
+Nov 27 10:20:02 controller600 geth[11053]: INFO [11-27|10:20:02] Commit new mining work                   number=10309 txs=1 uncles=0 elapsed=4.486ms
+Nov 27 10:20:02 controller600 geth[11053]: INFO [11-27|10:20:02] 🔗 block reached canonical chain          number=10303 hash=323d79…4b7d54
+Nov 27 10:20:07 controller600 geth[11053]: INFO [11-27|10:20:07] Successfully sealed new block            number=10309 hash=593811…96983f
+Nov 27 10:20:07 controller600 geth[11053]: INFO [11-27|10:20:07] 🔨 mined potential block                  number=10309 hash=593811…96983f
+Nov 27 10:20:07 controller600 geth[11053]: INFO [11-27|10:20:07] Commit new mining work                   number=10310 txs=1 uncles=0 elapsed=8.337ms
+Nov 27 10:20:07 controller600 geth[11053]: INFO [11-27|10:20:07] Signed recently, must wait for others
+Nov 27 10:20:12 controller600 geth[11053]: INFO [11-27|10:20:12] Imported new chain segment               blocks=1 txs=1 mgas=0.647 elapsed=10.580ms  mgasps=61.146 number=10310 hash=5cffbf…cdcbfc cache=32.03kB
+Nov 27 10:20:12 controller600 geth[11053]: INFO [11-27|10:20:12] Commit new mining work                   number=10311 txs=1 uncles=0 elapsed=4.578ms
+Nov 27 10:20:13 controller600 geth[11053]: INFO [11-27|10:20:13] Submitted transaction                    fullhash=0xf983598d023d2ded1db3306e026a035061d36f25d5c93ac0c98018ce5db67aac recipient=0x32a9B560f1f9c1A86B2820542eAC7D2B5FFDCc76
+Nov 27 10:20:13 controller600 geth[11053]: INFO [11-27|10:20:13] Submitted transaction                    fullhash=0xddb07c9a43b1ed87f1f7514e884766ae0316ce3cad4dd5c059e0ded7f55591b2 recipient=0x005D4140CE962f37468b400F2d0b1128833B71ae
+Nov 27 10:20:17 controller600 geth[11053]: INFO [11-27|10:20:17] Imported new chain segment               blocks=1 txs=1 mgas=0.030 elapsed=13.117ms  mgasps=2.299  number=10311 hash=fa33e1…d58889 cache=34.62kB
+Nov 27 10:20:17 controller600 geth[11053]: INFO [11-27|10:20:17] Commit new mining work                   number=10312 txs=1 uncles=0 elapsed=5.202ms
+Nov 27 10:20:17 controller600 geth[11053]: INFO [11-27|10:20:17] 🔗 block reached canonical chain          number=10306 hash=6be2df…13ab67

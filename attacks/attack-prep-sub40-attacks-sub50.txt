@@ -1,0 +1,25 @@
+attacking victim node504 from subnet 40
+[1] 10:42:15 [FAILURE] savf@node401 Exited with error code 1
+PING 192.168.50.5 (192.168.50.5) 56(84) bytes of data.
+
+--- 192.168.50.5 ping statistics ---
+10 packets transmitted, 0 received, 100% packet loss, time 9264ms
+
+[2] 10:42:15 [FAILURE] savf@node402 Exited with error code 1
+PING 192.168.50.5 (192.168.50.5) 56(84) bytes of data.
+
+--- 192.168.50.5 ping statistics ---
+10 packets transmitted, 0 received, 100% packet loss, time 9236ms
+
+[3] 10:42:15 [FAILURE] savf@node403 Exited with error code 1
+PING 192.168.50.5 (192.168.50.5) 56(84) bytes of data.
+
+--- 192.168.50.5 ping statistics ---
+10 packets transmitted, 0 received, 100% packet loss, time 9273ms
+
+[4] 10:42:15 [FAILURE] savf@node404 Exited with error code 1
+PING 192.168.50.5 (192.168.50.5) 56(84) bytes of data.
+
+--- 192.168.50.5 ping statistics ---
+10 packets transmitted, 0 received, 100% packet loss, time 9335ms
+

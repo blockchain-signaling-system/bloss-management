@@ -2,3 +2,4 @@
 echo "Killing node & npm"
 killall node;
 killall npm;
+killall tmux;

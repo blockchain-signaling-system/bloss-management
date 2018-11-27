@@ -1,0 +1,11 @@
+attacking victim node504
+[1] 10:54:40 [FAILURE] savf@node601 Interrupted
+------------------------------------------------------------
+Client connecting to 192.168.50.5, UDP port 5000
+Sending 1470 byte datagrams, IPG target: 588.00 us (kalman adjust)
+UDP buffer size:  160 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.60.2 port 48772 connected with 192.168.50.5 port 5000
+[2] 10:54:40 [FAILURE] savf@node602 Interrupted
+[3] 10:54:40 [FAILURE] savf@node603 Interrupted
+[4] 10:54:40 [FAILURE] savf@node604 Interrupted
